@@ -27,6 +27,7 @@ class UserTenantRole(StrEnum):
 
 class TenantPermission(StrEnum):
     ME = 'me'
+    DEPT = 'dept'  # MaaS: 部门级别权限，同 dept_id 用户可见
     TEAM = 'team'
 
 
